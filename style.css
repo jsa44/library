@@ -1,0 +1,44 @@
+input {
+    display: grid;
+    grid-template-rows: 2 2 2 2;
+    margin-bottom: 2px;
+}
+
+.read-values {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto 2fr;
+    width: 15%;
+    margin-bottom: 5px;
+}
+
+.form-container {
+    display: none;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.book {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    font-size: 22px;
+}
+
+.book-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.del-button {
+    float: right;
+}
+
+.read-toggle {
+    margin-right: 0;
+    margin-left: auto;
+}
